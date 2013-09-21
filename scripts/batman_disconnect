@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+ifconfig bat0 down 
+
+ifconfig wlan0 down
+
+rmmod batman-adv.ko
+
+service network-manager start

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+
+ 
+
+ifconfig wlan0 down
+
+
+
+killall babeld
+
+service network-manager start

@@ -1,0 +1,29 @@
+#!/bin/sh
+
+service network-manager stop
+
+insmod ~/repos/batman-adv/batman-adv/batman-adv.ko
+
+
+ifconfig wlan0 mtu 1528
+
+iwconfig wlan0 mode ad-hoc essid mesh channel 1 key off
+
+sleep 3 
+
+batctl if add wlan0
+
+ifconfig wlan0 up
+
+ifconfig bat0 up
+
+#ifconfig bat0 192.168.2.101
+
+ifconfig wlan0 192.168.2.101
+echo ip-set
+
+sleep 3
+echo start
+
+~/repos/babeld_my/babeld  wlan0
+# /repos/babeld_my/babeld -d 3 wlan0

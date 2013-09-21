@@ -1,0 +1,21 @@
+#!/bin/sh
+
+service network-manager stop
+echo netman-stopped
+
+ifconfig wlan0 mtu 1500
+sleep 3
+iwconfig wlan0 mode ad-hoc essid mesh channel 1 key off
+echo adhoc-set
+
+sleep 3
+ifconfig wlan0 up
+echo iface-up
+
+
+ifconfig wlan0 192.168.2.101
+echo ip-set
+
+sleep 3
+echo start
+~/repos/babeld/babeld wlan0 
