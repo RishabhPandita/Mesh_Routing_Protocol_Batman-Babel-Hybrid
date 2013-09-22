@@ -1,0 +1,12 @@
+This Project Comprises of Using Two Different Repositories :
+1) batman-adv :
+2) babeld     :
+
+So in order to run this new hybrid protocol, 
+  1)Download the repo of Batman-adv.
+  2)Downnload the modified babeld repository from my repository.
+  3)Download the Script Files.
+  4)You should have GnuPlot and other dependencied installed.
+  5)Make sure that your NIC supports Ad-Hoc Mode.
+  6)Run the Scripts and observe the graphs
+  
