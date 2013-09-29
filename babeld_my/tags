@@ -1,0 +1,638 @@
+ARPHRD_ETHER	kernel_netlink.c	64
+ATTRIBUTE	babeld.h	/^#define ATTRIBUTE(x) __attribute__ (x)$/
+ATTRIBUTE	babeld.h	/^#define ATTRIBUTE(x) \/**\/$/
+BUCKET_TOKENS_MAX	message.h	25
+BUCKET_TOKENS_PER_SEC	message.h	26
+CHANGE_ADDR	kernel.h	43
+CHANGE_LINK	kernel.h	41
+CHANGE_ROUTE	kernel.h	42
+COLD	babeld.h	62
+COLD	babeld.h	64
+CONFIG_DEFAULT	interface.h	43
+CONFIG_NO	interface.h	44
+CONFIG_YES	interface.h	45
+COPY_ADDR	kernel_netlink.c	/^#define COPY_ADDR(d, s) \\$/
+COPY_ADDR	kernel_netlink.c	1038
+DEBUGFS_MAGIC	debugfs.c	32
+DEBUG_BATIF_PATH_FMT	batadv_query.c	29
+DEBUG_ORIGINATORS	batadv_query.c	31
+DEBUG_TRANSTABLE_GLOBAL	batadv_query.c	30
+DIVERSITY_CHANNEL	route.h	26
+DIVERSITY_CHANNEL_1	route.h	25
+DIVERSITY_HOPS	route.h	28
+DIVERSITY_INTERFACE_1	route.h	24
+DIVERSITY_NONE	route.h	23
+DO_HTONL	util.h	/^#define DO_HTONL(_d, _s) do{ *(unsigned*)(_d) = ht/
+DO_HTONS	util.h	/^#define DO_HTONS(_d, _s) do{ *(unsigned short*)(_d/
+DO_HTONS	util.h	/^#define DO_HTONS(_d, _s) \\$/
+DO_HTONS	util.h	/^#define DO_HTONS(_d, _s) \\$/
+DO_NTOHL	util.h	/^#define DO_NTOHL(_d, _s) do{ _d = ntohl(*(const un/
+DO_NTOHS	util.h	/^#define DO_NTOHS(_d, _s) do{ _d = ntohs(*(const un/
+DO_NTOHS	util.h	/^#define DO_NTOHS(_d, _s) \\$/
+DO_NTOHS	util.h	/^#define DO_NTOHS(_d, _s) \\$/
+FOR_ALL_INTERFACES	interface.h	/^#define FOR_ALL_INTERFACES(_ifp) for(_ifp = interf/
+FOR_ALL_NEIGHBOURS	neighbour.h	/^#define FOR_ALL_NEIGHBOURS(_neigh) \\$/
+IF_CHANNEL_INTERFERING	interface.h	55
+IF_CHANNEL_NONINTERFERING	interface.h	56
+IF_CHANNEL_UNKNOWN	interface.h	54
+IF_CONF	interface.h	/^#define IF_CONF(_ifp, _field) \\$/
+IF_FARAWAY	interface.h	51
+IF_LQ	interface.h	50
+IF_SPLIT_HORIZON	interface.h	49
+IF_UP	interface.h	47
+IF_WIRED	interface.h	48
+IN6_LINKLOCAL_IFINDEX	kernel_socket.c	/^#define	IN6_LINKLOCAL_IFINDEX(a)  ((a).s6_addr[2] /
+INFINITY	babeld.h	23
+KERNEL_INFINITY	kernel.h	26
+LIKELY	babeld.h	/^#define LIKELY(_x) __builtin_expect(!!(_x), 1)$/
+LIKELY	babeld.h	/^#define LIKELY(_x) !!(_x)$/
+LOCAL_ADD	local.h	28
+LOCAL_CHANGE	local.h	29
+LOCAL_FLUSH	local.h	27
+MASKLEN	kernel_socket.c	/^#define	MASKLEN(m, l)	case m: do { i += l; break; /
+MASKLEN	kernel_socket.c	182
+MAX	babeld.h	31
+MAX	babeld.h	/^#define MAX(x,y) ((x)<=(y)?(y):(x))$/
+MAX_BUFFERED_UPDATES	message.h	23
+MAX_PATH	debugfs.h	28
+MERGE	configuration.c	/^#define MERGE(field)                            \\$/
+MERGE	configuration.c	528
+MESSAGE_ACK	message.h	31
+MESSAGE_ACK_REQ	message.h	30
+MESSAGE_HELLO	message.h	32
+MESSAGE_IHU	message.h	33
+MESSAGE_MH_REQUEST	message.h	38
+MESSAGE_NH	message.h	35
+MESSAGE_PAD1	message.h	28
+MESSAGE_PADN	message.h	29
+MESSAGE_REQUEST	message.h	37
+MESSAGE_ROUTER_ID	message.h	34
+MESSAGE_UPDATE	message.h	36
+MIN	babeld.h	32
+MIN	babeld.h	/^#define MIN(x,y) ((x)<=(y)?(x):(y))$/
+Mbabeld	babeld.c	/^main(int argc, char **argv)$/
+NO_ARPHRD	kernel_netlink.c	65
+PUSHADDR	kernel_socket.c	/^#define PUSHADDR(src) \\$/
+PUSHADDR	kernel_socket.c	546
+PUSHADDR6	kernel_socket.c	/^#define PUSHADDR6(src) \\$/
+PUSHADDR6	kernel_socket.c	547
+PUSHEUI	kernel_socket.c	/^#define PUSHEUI(ifindex) \\$/
+PUSHEUI	kernel_socket.c	545
+REQUEST_TIMEOUT	resend.h	23
+RESEND_MAX	resend.h	24
+RESEND_REQUEST	resend.h	26
+RESEND_UPDATE	resend.h	27
+ROUNDUP	kernel_socket.c	/^#define ROUNDUP(a) \\$/
+ROUNDUP	kernel_socket.c	/^#define ROUNDUP(a) \\$/
+ROUTE_ADD	kernel.h	38
+ROUTE_FLUSH	kernel.h	37
+ROUTE_MODIFY	kernel.h	39
+RTA_TABLE	kernel_netlink.c	46
+RTPROT_BABEL	babeld.h	26
+RTPROT_BABEL_LOCAL	babeld.h	29
+RTPROT_BOOT	configuration.c	32
+SET_IN6_LINKLOCAL_IFINDEX	kernel_socket.c	/^#define SET_IN6_LINKLOCAL_IFINDEX(a, i)         \\$/
+SIOCGIWFREQ	kernel_netlink.c	765
+SIOCGIWNAME	kernel_netlink.c	738
+SOURCE_GC_TIME	source.h	23
+STR	debugfs.h	/^# define STR(x) _STR(x)$/
+UNICAST_BUFSIZE	message.c	51
+UNLIKELY	babeld.h	/^#define UNLIKELY(_x) __builtin_expect(!!(_x), 0)$/
+UNLIKELY	babeld.h	/^#define UNLIKELY(_x) !!(_x)$/
+VALGRIND_CHECK_MEM_IS_DEFINED	babeld.h	/^#define VALGRIND_CHECK_MEM_IS_DEFINED(a, b) do {} /
+VALGRIND_MAKE_MEM_UNDEFINED	babeld.h	/^#define VALGRIND_MAKE_MEM_UNDEFINED(a, b) do {} wh/
+_BATADV_QUERY_H	batadv_query.h	22
+_STR	debugfs.h	/^# define _STR(x) #x$/
+__DEBUGFS_H__	debugfs.h	22
+__us	util.h	32
+accumulate_byte	message.c	/^accumulate_byte(struct interface *ifp, unsigned ch/
+accumulate_bytes	message.c	/^accumulate_bytes(struct interface *ifp,$/
+accumulate_short	message.c	/^accumulate_short(struct interface *ifp, unsigned s/
+accumulate_unicast_byte	message.c	/^accumulate_unicast_byte(struct neighbour *neigh, u/
+accumulate_unicast_bytes	message.c	/^accumulate_unicast_bytes(struct neighbour *neigh,$/
+accumulate_unicast_short	message.c	/^accumulate_unicast_short(struct neighbour *neigh, /
+add_filter	configuration.c	/^add_filter(struct filter *filter, struct filter **/
+add_ifconf	configuration.c	/^add_ifconf(struct interface_conf *if_conf, struct /
+add_interface	interface.c	/^add_interface(char *ifname, struct interface_conf /
+add_metric	route.h	34
+add_xroute	xroute.c	/^add_xroute(unsigned char prefix[16], unsigned char/
+addr	kernel_socket.c	729
+address	neighbour.h	27
+af	configuration.h	24
+all_wireless	babeld.c	64
+allow_duplicates	route.c	46
+babel_recv	net.c	/^babel_recv(int s, void *buf, int buflen, struct so/
+babel_route	route.h	30
+babel_send	net.c	/^babel_send(int s,$/
+babel_socket	net.c	/^babel_socket(int port)$/
+batadv_interface_check	batadv_query.c	/^int batadv_interface_check(char *mesh_iface)$/
+bucket	interface.h	87
+bucket_time	interface.h	86
+buffer_update	message.c	/^buffer_update(struct interface *ifp,$/
+buffer_update_callback	message.c	/^buffer_update_callback(struct babel_route *route, /
+buffered	interface.h	73
+buffered_id	interface.h	79
+buffered_nh	interface.h	80
+buffered_prefix	interface.h	81
+buffered_update	interface.h	23
+buffered_updates	interface.h	83
+bufsize	interface.h	74
+change_route_metric	route.c	/^change_route_metric(struct babel_route *route,$/
+change_smoothing_half_life	route.c	/^change_smoothing_half_life(int half_life)$/
+channel	interface.h	39
+channel	interface.h	64
+channels	route.h	43
+channels_interfere	route.c	/^channels_interfere(int ch1, int ch2)$/
+channels_len	message.c	/^channels_len(unsigned char *channels)$/
+check_bucket	message.c	/^check_bucket(struct interface *ifp)$/
+check_interface_channel	interface.c	/^check_interface_channel(struct interface *ifp)$/
+check_interface_ipv4	interface.c	/^check_interface_ipv4(struct interface *ifp)$/
+check_interfaces	interface.c	/^check_interfaces(void)$/
+check_neighbours	neighbour.c	/^check_neighbours()$/
+check_neighbours_timeout	babeld.c	89
+check_sources_released	source.c	/^check_sources_released(void)$/
+check_xroutes	xroute.c	/^check_xroutes(int send_updates)$/
+compare_buffered_updates	message.c	/^compare_buffered_updates(const void *av, const voi/
+conf	interface.h	60
+consider_route	route.c	/^consider_route(struct babel_route *route)$/
+cost	interface.h	34
+cost	interface.h	63
+cost	route.h	33
+daemonise	util.c	/^daemonise()$/
+debug	babeld.c	61
+debugf	util.h	/^#define debugf(...) printf(...) \/\/do {} while(0)$/
+debugf	util.h	/^#define debugf(_args...) do {} while(0)$/
+debugf	util.h	/^#define debugf(...) \\$/
+debugf	util.h	/^#define debugf(_args...) \\$/
+debugf	util.h	/^static inline void debugf(const char *format, ...)/
+debugfs_find_mountpoint	debugfs.c	/^static const char *debugfs_find_mountpoint(void)$/
+debugfs_found	debugfs.c	66
+debugfs_known_mountpoints	debugfs.c	41
+debugfs_make_path	debugfs.c	/^int debugfs_make_path(const char *fmt, char *mesh_/
+debugfs_mount	debugfs.c	/^char *debugfs_mount(const char *mountpoint)$/
+debugfs_mountpoint	debugfs.c	36
+debugfs_premounted	debugfs.c	35
+debugfs_valid_entry	debugfs.c	/^int debugfs_valid_entry(const char *path)$/
+debugfs_valid_mountpoint	debugfs.c	/^static int debugfs_valid_mountpoint(const char *de/
+default_wired_hello_interval	babeld.c	66
+default_wireless_hello_interval	babeld.c	65
+delay	resend.h	32
+dgram_socket	kernel_netlink.c	61
+diversity_factor	route.c	48
+diversity_kind	route.c	47
+do_daemonise	babeld.c	68
+do_debugf	util.c	/^do_debugf(int level, const char *format, ...)$/
+do_filter	configuration.c	/^do_filter(struct filter *f, const unsigned char *i/
+do_resend	resend.c	/^do_resend()$/
+dummy	local.c	40
+dump_route_callback	babeld.c	/^dump_route_callback(struct babel_route *route, voi/
+dump_tables	babeld.c	/^dump_tables(FILE *out)$/
+dump_xroute_callback	babeld.c	/^dump_xroute_callback(struct xroute *xroute, void */
+e	kernel_netlink.c	769
+end_message	message.c	/^end_message(struct interface *ifp, int type, int b/
+end_unicast_message	message.c	/^end_unicast_message(struct neighbour *neigh, int t/
+ensure_space	message.c	/^ensure_space(struct interface *ifp, int space)$/
+exiting	babeld.c	91
+expire_resend	resend.c	/^expire_resend()$/
+expire_routes	route.c	/^expire_routes(void)$/
+expire_sources	source.c	/^expire_sources()$/
+export_table	kernel_netlink.c	54
+export_table	kernel_socket.c	60
+faraway	interface.h	38
+filter	configuration.h	23
+filter_addresses	kernel_netlink.c	/^filter_addresses(struct nlmsghdr *nh, void *data)$/
+filter_kernel_routes	kernel_netlink.c	/^filter_kernel_routes(struct nlmsghdr *nh, void *da/
+filter_link	kernel_netlink.c	/^filter_link(struct nlmsghdr *nh, void *data)$/
+filter_match	configuration.c	/^filter_match(struct filter *f, const unsigned char/
+filter_netlink	kernel_netlink.c	/^filter_netlink(struct nlmsghdr *nh, void *data)$/
+finalise_config	configuration.c	/^finalise_config()$/
+find_best_route	route.c	/^find_best_route(const unsigned char *prefix, unsig/
+find_installed_route	route.c	/^find_installed_route(const unsigned char *prefix, /
+find_neighbour	neighbour.c	/^find_neighbour(const unsigned char *address, struc/
+find_neighbour_nocreate	neighbour.c	/^find_neighbour_nocreate(const unsigned char *addre/
+find_request	resend.c	/^find_request(const unsigned char *prefix, unsigned/
+find_resend	resend.c	/^find_resend(int kind, const unsigned char *prefix,/
+find_route	route.c	/^find_route(const unsigned char *prefix, unsigned c/
+find_route_slot	route.c	/^find_route_slot(const unsigned char *prefix, unsig/
+find_source	source.c	/^find_source(const unsigned char *id, const unsigne/
+find_xroute	xroute.c	/^find_xroute(const unsigned char *prefix, unsigned /
+flags	kernel_netlink.c	771
+flags	interface.h	62
+flush_all_routes	route.c	/^flush_all_routes()$/
+flush_interface_routes	route.c	/^flush_interface_routes(struct interface *ifp, int /
+flush_neighbour	neighbour.c	/^flush_neighbour(struct neighbour *neigh)$/
+flush_neighbour_routes	route.c	/^flush_neighbour_routes(struct neighbour *neigh)$/
+flush_resends	resend.c	/^flush_resends(struct neighbour *neigh)$/
+flush_route	route.c	/^flush_route(struct babel_route *route)$/
+flush_source	source.c	/^flush_source(struct source *src)$/
+flush_timeout	interface.h	67
+flush_unicast	message.c	/^flush_unicast(int dofree)$/
+flush_xroute	xroute.c	/^flush_xroute(struct xroute *xroute)$/
+flushbuf	message.c	/^flushbuf(struct interface *ifp)$/
+flushupdates	message.c	/^flushupdates(struct interface *ifp)$/
+for_all_installed_routes	route.c	/^for_all_installed_routes(void (*f)(struct babel_ro/
+for_all_routes	route.c	/^for_all_routes(void (*f)(struct babel_route*, void/
+for_all_xroutes	xroute.c	/^for_all_xroutes(void (*f)(struct xroute*, void*), /
+format_address	util.c	/^format_address(const unsigned char *address)$/
+format_eui64	util.c	/^format_eui64(const unsigned char *eui)$/
+format_prefix	util.c	/^format_prefix(const unsigned char *prefix, unsigne/
+freq	kernel_netlink.c	780
+freq_to_chan	kernel_netlink.c	/^freq_to_chan(struct iw_freq *freq)$/
+get_sdl	kernel_socket.c	/^get_sdl(struct sockaddr_dl *sdl, char *ifname)$/
+get_tq	batadv_query.c	/^uint8_t get_tq(char *mesh_iface, struct ether_addr/
+getbool	configuration.c	/^getbool(int c, int *int_r, gnc_t gnc, void *closur/
+getid	configuration.c	/^getid(int c, unsigned char **id_r, gnc_t gnc, void/
+getint	configuration.c	/^getint(int c, int *int_r, gnc_t gnc, void *closure/
+getip	configuration.c	/^getip(int c, unsigned char **ip_r, int *af_r, gnc_/
+getmsec	configuration.c	/^getmsec(int c, int *int_r, gnc_t gnc, void *closur/
+getnet	configuration.c	/^getnet(int c, unsigned char **p_r, unsigned char */
+getstring	configuration.c	/^getstring(int c, char **token_r, gnc_t gnc, void */
+gettime	kernel.c	/^gettime(struct timeval *tv)$/
+getword	configuration.c	/^getword(int c, char **token_r, gnc_t gnc, void *cl/
+gnc_string	configuration.c	/^gnc_string(struct string_state *s)$/
+gnc_t	configuration.c	53
+gw	kernel.h	34
+handle_request	message.c	/^handle_request(struct neighbour *neigh, const unsi/
+have_buffered_hello	interface.h	75
+have_buffered_id	interface.h	76
+have_buffered_nh	interface.h	77
+have_buffered_prefix	interface.h	78
+hello_interval	interface.h	32
+hello_interval	interface.h	90
+hello_interval	neighbour.h	32
+hello_seqno	interface.h	89
+hello_seqno	neighbour.h	26
+hello_time	neighbour.h	30
+hello_timeout	interface.h	65
+hold_time	route.h	39
+i	kernel_netlink.c	770
+id	configuration.h	27
+id	interface.h	24
+id	resend.h	37
+id	source.h	27
+if_eui64	kernel_netlink.c	/^if_eui64(char *ifname, int ifindex, unsigned char /
+if_eui64	kernel_socket.c	/^if_eui64(char *ifname, int ifindex, unsigned char /
+if_up	interface.h	/^if_up(struct interface *ifp)$/
+ifindex	configuration.h	26
+ifindex	interface.h	61
+ifindex	kernel.h	32
+ifindex	xroute.h	27
+ifindex_lo	kernel_socket.c	159
+ifname	configuration.h	25
+ifname	interface.h	31
+ifp	neighbour.h	34
+ifp	resend.h	38
+ifr_ifrn	kernel_netlink.c	777
+ifrn_name	kernel_netlink.c	776
+ihu_interval	neighbour.h	33
+ihu_time	neighbour.h	31
+in_prefix	util.c	/^in_prefix(const unsigned char *restrict address,$/
+init_signals	babeld.c	/^init_signals(void)$/
+inline	babeld.h	40
+inline	babeld.h	47
+input_filter	configuration.c	/^input_filter(const unsigned char *id,$/
+input_filters	configuration.c	40
+insert_route	route.c	/^insert_route(struct babel_route *route)$/
+install_route	route.c	/^install_route(struct babel_route *route)$/
+installed	route.h	42
+installed_routes_estimate	route.c	/^installed_routes_estimate(void)$/
+interface	interface.h	58
+interface_conf	interface.h	30
+interface_confs	configuration.c	43
+interface_ll_address	interface.c	/^interface_ll_address(struct interface *ifp, const /
+interface_up	interface.c	/^interface_up(struct interface *ifp, int up)$/
+interfaces	interface.c	44
+ipv4	interface.h	70
+ipv6_to_mac	batadv_query.c	/^int ipv6_to_mac(const struct in6_addr *addr, struc/
+is_ipv6_eui64	batadv_query.c	/^int is_ipv6_eui64(const struct in6_addr *addr)$/
+isbatman	kernel_netlink.c	/^isbatman(const char *ifname, int ifindex)$/
+isbridge	kernel_netlink.c	/^isbridge(const char *ifname, int ifindex)$/
+iw_freq	kernel_netlink.c	767
+iwreq_subset	kernel_netlink.c	774
+jitter	interface.c	/^jitter(struct interface *ifp, int urgent)$/
+kdebugf	util.h	/^#define kdebugf(...) do {} while(0)$/
+kdebugf	util.h	/^#define kdebugf(_args...) do {} while(0)$/
+kdebugf	util.h	/^static inline void kdebugf(const char *format, .../
+kdebugf	util.h	/^#define kdebugf(...) \\$/
+kdebugf	util.h	/^#define kdebugf(_args...) \\$/
+kdebugf	util.h	/^static inline void kdebugf(const char *format, .../
+keep_unfeasible	route.c	49
+kernel_addr_changed	babeld.c	87
+kernel_addresses	kernel_netlink.c	/^kernel_addresses(char *ifname, int ifindex, int ll/
+kernel_addresses	kernel_socket.c	/^kernel_addresses(char *ifname, int ifindex, int ll/
+kernel_callback	kernel_netlink.c	/^kernel_callback(int (*fn)(int, void*), void *closu/
+kernel_callback	kernel_socket.c	/^kernel_callback(int (*fn)(int, void*), void *closu/
+kernel_interface_channel	kernel_netlink.c	/^kernel_interface_channel(const char *ifname, int i/
+kernel_interface_channel	kernel_socket.c	/^kernel_interface_channel(const char *ifname, int i/
+kernel_interface_ipv4	kernel_netlink.c	/^kernel_interface_ipv4(const char *ifname, int ifin/
+kernel_interface_ipv4	kernel_socket.c	/^kernel_interface_ipv4(const char *ifname, int ifin/
+kernel_interface_mtu	kernel_netlink.c	/^kernel_interface_mtu(const char *ifname, int ifind/
+kernel_interface_mtu	kernel_socket.c	/^kernel_interface_mtu(const char *ifname, int ifind/
+kernel_interface_operational	kernel_netlink.c	/^kernel_interface_operational(const char *ifname, i/
+kernel_interface_operational	kernel_socket.c	/^kernel_interface_operational(const char *ifname, i/
+kernel_interface_wireless	kernel_netlink.c	/^kernel_interface_wireless(const char *ifname, int /
+kernel_interface_wireless	kernel_socket.c	/^kernel_interface_wireless(const char *ifname, int /
+kernel_link_changed	babeld.c	86
+kernel_metric	route.c	45
+kernel_route	kernel_netlink.c	/^kernel_route(int operation, const unsigned char *d/
+kernel_route	kernel_socket.c	/^kernel_route(int operation, const unsigned char *d/
+kernel_route	kernel.h	28
+kernel_routes	kernel_netlink.c	/^kernel_routes(struct kernel_route *routes, int max/
+kernel_routes	kernel_socket.c	/^kernel_routes(struct kernel_route *routes, int max/
+kernel_routes_callback	babeld.c	/^kernel_routes_callback(int changed, void *closure)/
+kernel_routes_changed	babeld.c	85
+kernel_setup	kernel_netlink.c	/^kernel_setup(int setup)$/
+kernel_setup	kernel_socket.c	/^kernel_setup(int setup)$/
+kernel_setup_interface	kernel_netlink.c	/^kernel_setup_interface(int setup, const char *ifna/
+kernel_setup_interface	kernel_socket.c	/^kernel_setup_interface(int setup, const char *ifna/
+kernel_setup_socket	kernel_netlink.c	/^kernel_setup_socket(int setup)$/
+kernel_setup_socket	kernel_socket.c	/^kernel_setup_socket(int setup)$/
+kernel_socket	babeld.c	84
+kind	resend.h	30
+last_interface	interface.c	/^last_interface(void)$/
+last_update_time	interface.h	88
+link_detect	babeld.c	63
+linklocal	util.c	/^linklocal(const unsigned char *address)$/
+ll	interface.h	72
+llprefix	util.c	249
+local_dump	local.h	/^#define local_dump() do {} while 0$/
+local_kind	local.c	/^local_kind(int kind)$/
+local_notify_all	local.c	/^local_notify_all()$/
+local_notify_neighbour	local.c	/^local_notify_neighbour(struct neighbour *neigh, in/
+local_notify_neighbour	local.h	/^#define local_notify_neighbour(n, k) do {} while(0/
+local_notify_route	local.c	/^local_notify_route(struct babel_route *route, int /
+local_notify_route	local.h	/^#define local_notify_route(r, k) do {} while(0)$/
+local_notify_route_callback	local.c	/^local_notify_route_callback(struct babel_route *ro/
+local_notify_self	local.c	/^local_notify_self()$/
+local_notify_self	local.h	/^#define local_notify_self() do {} while(0)$/
+local_notify_xroute	local.c	/^local_notify_xroute(struct xroute *xroute, int kin/
+local_notify_xroute	local.h	/^#define local_notify_xroute(x, k) do {} while(0)$/
+local_notify_xroute_callback	local.c	/^local_notify_xroute_callback(struct xroute *xroute/
+local_read	local.c	/^local_read(int s)$/
+local_server_port	babeld.c	94
+local_server_socket	babeld.c	93
+logfile	babeld.c	69
+lq	interface.h	37
+m	kernel_netlink.c	768
+m_rtm	kernel_socket.c	395
+m_space	kernel_socket.c	396
+mac_to_ipv6	batadv_query.c	/^int mac_to_ipv6(const struct ether_addr *mac, stru/
+martian_prefix	util.c	/^martian_prefix(const unsigned char *prefix, int pl/
+mask2len	kernel_socket.c	/^mask2len(const unsigned char *p, const int size)$/
+mask_prefix	util.c	/^mask_prefix(unsigned char *restrict ret,$/
+max	resend.h	31
+merge_ifconf	configuration.c	/^merge_ifconf(struct interface_conf *dest, struct i/
+metric	kernel.h	31
+metric	source.h	31
+metric	xroute.h	26
+metric_to_kernel	route.c	/^metric_to_kernel(int metric)$/
+move_installed_route	route.c	/^move_installed_route(struct babel_route *route, in/
+myid	babeld.c	60
+myseqno	message.c	48
+n	configuration.c	623
+name	interface.h	69
+neigh	configuration.h	31
+neigh	route.h	36
+neighbour	neighbour.h	23
+neighbour_cost	neighbour.c	/^neighbour_cost(struct neighbour *neigh)$/
+neighbour_rxcost	neighbour.c	/^neighbour_rxcost(struct neighbour *neigh)$/
+neighbour_txcost	neighbour.c	/^neighbour_txcost(struct neighbour *neigh)$/
+neighs	neighbour.c	39
+netlink	kernel_netlink.c	180
+netlink_read	kernel_netlink.c	/^netlink_read(struct netlink *nl, struct netlink *n/
+netlink_send_dump	kernel_netlink.c	/^netlink_send_dump(int type, void *data, int len) {/
+netlink_socket	kernel_netlink.c	/^netlink_socket(struct netlink *nl, uint32_t groups/
+netlink_talk	kernel_netlink.c	/^netlink_talk(struct nlmsghdr *nh)$/
+network_address	message.c	/^network_address(int ae, const unsigned char *a, un/
+network_prefix	message.c	/^network_prefix(int ae, int plen, unsigned int omit/
+next	configuration.h	34
+next	interface.h	40
+next	interface.h	59
+next	neighbour.h	24
+next	resend.h	39
+next	route.h	44
+next	source.h	26
+nexthop	route.h	37
+nh	kernel_netlink.c	417
+nh	kernel_netlink.c	844
+nl_command	kernel_netlink.c	187
+nl_listen	kernel_netlink.c	188
+nl_setup	kernel_netlink.c	189
+now	babeld.c	58
+num_buffered_updates	interface.h	84
+numll	interface.h	71
+numxroutes	xroute.c	43
+old_accept_redirects	kernel_netlink.c	58
+old_accept_redirects	kernel_socket.c	157
+old_forwarding	kernel_netlink.c	56
+old_forwarding	kernel_socket.c	156
+old_ipv4_forwarding	kernel_netlink.c	57
+old_rp_filter	kernel_netlink.c	59
+ones	babeld.c	75
+orig_lastseen	batadv_query.c	209
+orig_mac	batadv_query.c	208
+orig_tqstart	batadv_query.c	210
+orig_tqvalue	batadv_query.c	211
+output_filter	configuration.c	/^output_filter(const unsigned char *id, const unsig/
+output_filters	configuration.c	41
+packet_header	message.c	44
+pad	interface.h	27
+parse_addr_rta	kernel_netlink.c	/^parse_addr_rta(struct ifaddrmsg *addr, int len, st/
+parse_address	util.c	/^parse_address(const char *address, unsigned char */
+parse_config	configuration.c	/^parse_config(gnc_t gnc, void *closure)$/
+parse_config_from_file	configuration.c	/^parse_config_from_file(char *filename)$/
+parse_config_from_string	configuration.c	/^parse_config_from_string(char *string)$/
+parse_eui64	util.c	/^parse_eui64(const char *eui, unsigned char *eui_r)/
+parse_filter	configuration.c	/^parse_filter(gnc_t gnc, void *closure)$/
+parse_ifconf	configuration.c	/^parse_ifconf(gnc_t gnc, void *closure)$/
+parse_ifname_rta	kernel_netlink.c	/^parse_ifname_rta(struct ifinfomsg *info, int len)$/
+parse_kernel_route	kernel_socket.c	/^parse_kernel_route(const struct rt_msghdr *rtm, st/
+parse_kernel_route_rta	kernel_netlink.c	/^parse_kernel_route_rta(struct rtmsg *rtm, int len,/
+parse_msec	util.c	/^parse_msec(const char *string)$/
+parse_nat	util.c	/^parse_nat(const char *string)$/
+parse_net	util.c	/^parse_net(const char *net, unsigned char *prefix_r/
+parse_packet	message.c	/^parse_packet(const unsigned char *from, struct int/
+parse_route_attributes	message.c	/^parse_route_attributes(const unsigned char *a, int/
+plen	configuration.h	29
+plen	interface.h	26
+plen	kernel.h	30
+plen	resend.h	35
+plen	source.h	29
+plen	xroute.h	25
+plen2mask	kernel_socket.c	/^plen2mask(int n, struct in6_addr *dest)$/
+plen_ge	configuration.h	30
+plen_le	configuration.h	30
+prefix	configuration.h	28
+prefix	interface.h	25
+prefix	kernel.h	29
+prefix	resend.h	34
+prefix	source.h	28
+prefix	xroute.h	24
+print_kernel_route	kernel_netlink.c	/^print_kernel_route(int add, int protocol, int type/
+print_kernel_route	kernel_socket.c	/^print_kernel_route(int add, struct kernel_route *r/
+proto	configuration.h	32
+proto	kernel.h	33
+proto	xroute.h	28
+protocol_group	babeld.c	82
+protocol_port	babeld.c	81
+protocol_socket	babeld.c	83
+raw	kernel_netlink.c	416
+raw	kernel_netlink.c	844
+reach	neighbour.h	28
+read_proc	kernel_netlink.c	/^read_proc(char *filename)$/
+read_random_bytes	kernel.c	/^read_random_bytes(void *buf, size_t len)$/
+really_send_update	message.c	/^really_send_update(struct interface *ifp,$/
+receive_buffer	babeld.c	71
+receive_buffer_size	babeld.c	72
+recompute_resend_time	resend.c	/^recompute_resend_time()$/
+record_resend	resend.c	/^record_resend(int kind, const unsigned char *prefi/
+redistribute_filter	configuration.c	/^redistribute_filter(const unsigned char *prefix, u/
+redistribute_filters	configuration.c	42
+refmetric	route.h	32
+release_source	source.c	/^release_source(struct source *src)$/
+renumber_filter	configuration.c	/^renumber_filter(struct filter *filter)$/
+renumber_filters	configuration.c	/^renumber_filters()$/
+reopen_logfile	babeld.c	/^reopen_logfile()$/
+request_redundant	resend.c	/^request_redundant(struct interface *ifp,$/
+resend	resend.h	29
+resend_delay	babeld.c	67
+resend_expired	resend.c	/^resend_expired(struct resend *resend)$/
+resend_match	resend.c	/^resend_match(struct resend *resend,$/
+resend_time	resend.c	36
+reset_txcost	neighbour.c	/^reset_txcost(struct neighbour *neigh)$/
+resize_receive_buffer	babeld.c	/^resize_receive_buffer(int size)$/
+resize_route_table	route.c	/^resize_route_table(int new_slots)$/
+restrict	babeld.h	42
+restrict	babeld.h	44
+restrict	babeld.h	48
+result	configuration.h	33
+retain_source	source.c	/^retain_source(struct source *src)$/
+retract_neighbour_routes	route.c	/^retract_neighbour_routes(struct neighbour *neigh)$/
+retract_route	route.c	/^retract_route(struct babel_route *route)$/
+roughly	util.c	/^roughly(int value)$/
+route_acceptable	route.c	/^route_acceptable(struct babel_route *route, int fe/
+route_changed	route.c	/^route_changed(struct babel_route *route,$/
+route_compare	route.c	/^route_compare(const unsigned char *prefix, unsigne/
+route_count	source.h	32
+route_expired	route.c	/^route_expired(struct babel_route *route)$/
+route_feasible	route.c	/^route_feasible(struct babel_route *route)$/
+route_interferes	route.c	/^route_interferes(struct babel_route *route, struct/
+route_lost	route.c	/^route_lost(struct source *src, unsigned oldmetric)/
+route_metric	route.h	/^route_metric(const struct babel_route *route)$/
+route_metric_noninterfering	route.h	/^route_metric_noninterfering(const struct babel_rou/
+route_old	route.c	/^route_old(struct babel_route *route)$/
+route_slots	route.c	44
+route_smoothed_metric	route.c	/^route_smoothed_metric(struct babel_route *route)$/
+routes	route.c	43
+rtm	kernel_socket.c	728
+satisfy_request	resend.c	/^satisfy_request(const unsigned char *prefix, unsig/
+schedule_flush	message.c	/^schedule_flush(struct interface *ifp)$/
+schedule_flush_now	message.c	/^schedule_flush_now(struct interface *ifp)$/
+schedule_neighbours_check	babeld.c	/^schedule_neighbours_check(int msecs, int override)/
+schedule_unicast_flush	message.c	/^schedule_unicast_flush(unsigned msecs)$/
+schedule_update_flush	message.c	/^schedule_update_flush(struct interface *ifp, int u/
+send_ack	message.c	/^send_ack(struct neighbour *neigh, unsigned short n/
+send_hello	message.c	/^send_hello(struct interface *ifp)$/
+send_hello_noupdate	message.c	/^send_hello_noupdate(struct interface *ifp, unsigne/
+send_ihu	message.c	/^send_ihu(struct neighbour *neigh, struct interface/
+send_marginal_ihu	message.c	/^send_marginal_ihu(struct interface *ifp)$/
+send_multihop_request	message.c	/^send_multihop_request(struct interface *ifp,$/
+send_request	message.c	/^send_request(struct interface *ifp,$/
+send_request_resend	message.c	/^send_request_resend(struct neighbour *neigh,$/
+send_self_update	message.c	/^send_self_update(struct interface *ifp)$/
+send_triggered_update	route.c	/^send_triggered_update(struct babel_route *route, s/
+send_unfeasible_request	route.c	/^send_unfeasible_request(struct neighbour *neigh, i/
+send_unicast_multihop_request	message.c	/^send_unicast_multihop_request(struct neighbour *ne/
+send_unicast_request	message.c	/^send_unicast_request(struct neighbour *neigh,$/
+send_update	message.c	/^send_update(struct interface *ifp, int urgent,$/
+send_update_resend	message.c	/^send_update_resend(struct interface *ifp,$/
+send_wildcard_retraction	message.c	/^send_wildcard_retraction(struct interface *ifp)$/
+send_xroute_update_callback	message.c	/^send_xroute_update_callback(struct xroute *xroute,/
+sendbuf	interface.h	82
+seq	kernel_socket.c	160
+seqno	kernel_netlink.c	181
+seqno	resend.h	36
+seqno	route.h	35
+seqno	source.h	30
+seqno_compare	util.h	/^seqno_compare(unsigned short s1, unsigned short s2/
+seqno_minus	util.h	/^seqno_minus(unsigned short s1, unsigned short s2)$/
+seqno_plus	util.h	/^seqno_plus(unsigned short s, int plus)$/
+seqno_time	message.c	49
+set_timeout	interface.c	/^set_timeout(struct timeval *timeout, int msecs)$/
+sigdump	babeld.c	/^sigdump(int signo)$/
+sigexit	babeld.c	/^sigexit(int signo)$/
+sigreopening	babeld.c	/^sigreopening(int signo)$/
+skip_to_eol	configuration.c	/^skip_to_eol(int c, gnc_t gnc, void *closure)$/
+skip_whitespace	configuration.c	/^skip_whitespace(int c, gnc_t gnc, void *closure)$/
+smoothed_metric	route.h	40
+smoothed_metric_time	route.h	41
+smoothing_half_life	route.c	51
+sock	kernel_netlink.c	182
+sockaddr	kernel_netlink.c	183
+socket_read	kernel_socket.c	/^socket_read(int sock) $/
+socklen	kernel_netlink.c	184
+source	source.h	25
+split_horizon	message.c	46
+split_horizon	interface.h	36
+src	route.h	31
+srcs	source.c	35
+start_message	message.c	/^start_message(struct interface *ifp, int type, int/
+start_unicast_message	message.c	/^start_unicast_message(struct neighbour *neigh, int/
+state_file	babeld.c	79
+string	configuration.c	622
+string_state	configuration.c	621
+switch_routes	route.c	/^switch_routes(struct babel_route *old, struct babe/
+tcp_server_socket	net.c	/^tcp_server_socket(int port, int local)$/
+tg_mac	batadv_query.c	127
+tg_originator	batadv_query.c	129
+tg_start	batadv_query.c	126
+tg_via	batadv_query.c	128
+time	resend.h	33
+time	route.h	38
+time	source.h	33
+timeval_add_msec	util.c	/^timeval_add_msec(struct timeval *d, const struct t/
+timeval_compare	util.c	/^timeval_compare(const struct timeval *s1, const st/
+timeval_min	util.c	/^timeval_min(struct timeval *d, const struct timeva/
+timeval_min_sec	util.c	/^timeval_min_sec(struct timeval *d, time_t secs)$/
+timeval_minus	util.c	/^timeval_minus(struct timeval *d,$/
+timeval_minus_msec	util.c	/^timeval_minus_msec(const struct timeval *s1, const/
+timeval_minus_msec	util.h	/^unsigned timeval_minus_msec(const struct timeval */
+to_resend	resend.c	37
+translate_mac	batadv_query.c	/^struct ether_addr *translate_mac(char *mesh_iface,/
+two_to_the_one_over_hl	route.c	52
+txcost	neighbour.h	29
+u	kernel_netlink.c	781
+unicast_buffer	message.c	53
+unicast_buffered	message.c	52
+unicast_flush_timeout	message.c	55
+unicast_neighbour	message.c	54
+uninstall_route	route.c	/^uninstall_route(struct babel_route *route)$/
+unsatisfied_request	resend.c	/^unsatisfied_request(const unsigned char *prefix, u/
+update_bufsize	interface.h	85
+update_feasible	route.c	/^update_feasible(struct source *src,$/
+update_flush_timeout	interface.h	68
+update_interface_metric	route.c	/^update_interface_metric(struct interface *ifp)$/
+update_interval	interface.h	33
+update_interval	interface.h	91
+update_jitter	interface.c	/^update_jitter(struct interface *ifp, int urgent)$/
+update_myseqno	message.c	/^update_myseqno()$/
+update_neighbour	neighbour.c	/^update_neighbour(struct neighbour *neigh, int hell/
+update_neighbour_metric	route.c	/^update_neighbour_metric(struct neighbour *neigh, i/
+update_route	route.c	/^update_route(const unsigned char *id,$/
+update_route_metric	route.c	/^update_route_metric(struct babel_route *route)$/
+update_source	source.c	/^update_source(struct source *src,$/
+update_timeout	interface.h	66
+v4mapped	util.c	/^v4mapped(const unsigned char *address)$/
+v4prefix	kernel_socket.c	57
+v4prefix	message.c	57
+v4prefix	util.c	246
+v4tov6	util.c	/^v4tov6(unsigned char *dst, const unsigned char *sr/
+wait_for_fd	util.c	/^wait_for_fd(int direction, int fd, int msecs)$/
+wired	interface.h	35
+write_proc	kernel_netlink.c	/^write_proc(char *filename, int value)$/
+write_timeout	local.c	/^write_timeout(int fd, const void *buf, int len)$/
+x	util.h	32
+xroute	xroute.h	23
+xroutes	xroute.c	42
+xroutes_estimate	xroute.c	/^xroutes_estimate()$/
+zeroes	babeld.c	74
