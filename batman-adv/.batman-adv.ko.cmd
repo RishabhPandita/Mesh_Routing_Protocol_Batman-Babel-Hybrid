@@ -1,0 +1,1 @@
+cmd_/home/swapnil/repos/batman-adv/batman-adv/batman-adv.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.2.0-38-generic/scripts/module-common.lds --build-id  -o /home/swapnil/repos/batman-adv/batman-adv/batman-adv.ko /home/swapnil/repos/batman-adv/batman-adv/batman-adv.o /home/swapnil/repos/batman-adv/batman-adv/batman-adv.mod.o

@@ -1,0 +1,420 @@
+BATADV_ATTR	sysfs.c	/^#define BATADV_ATTR(_name, _mode, _show, _store)	\\/
+BATADV_ATTR_HIF_SHOW_UINT	sysfs.c	/^#define BATADV_ATTR_HIF_SHOW_UINT(_name)				\\$/
+BATADV_ATTR_HIF_STORE_UINT	sysfs.c	/^#define BATADV_ATTR_HIF_STORE_UINT(_name, _min, _m/
+BATADV_ATTR_HIF_UINT	sysfs.c	/^#define BATADV_ATTR_HIF_UINT(_name, _mode, _min, _/
+BATADV_ATTR_SIF_BOOL	sysfs.c	/^#define BATADV_ATTR_SIF_BOOL(_name, _mode, _post_f/
+BATADV_ATTR_SIF_SHOW_BOOL	sysfs.c	/^#define BATADV_ATTR_SIF_SHOW_BOOL(_name)				\\$/
+BATADV_ATTR_SIF_SHOW_UINT	sysfs.c	/^#define BATADV_ATTR_SIF_SHOW_UINT(_name)				\\$/
+BATADV_ATTR_SIF_STORE_BOOL	sysfs.c	/^#define BATADV_ATTR_SIF_STORE_BOOL(_name, _post_fu/
+BATADV_ATTR_SIF_STORE_UINT	sysfs.c	/^#define BATADV_ATTR_SIF_STORE_UINT(_name, _min, _m/
+BATADV_ATTR_SIF_UINT	sysfs.c	/^#define BATADV_ATTR_SIF_UINT(_name, _mode, _min, _/
+BATADV_DEBUGINFO	debugfs.c	/^#define BATADV_DEBUGINFO(_name, _mode, _open)		\\$/
+BATADV_DHCP_OPTIONS_OFFSET	gateway_client.c	36
+BATADV_DHCP_REQUEST	gateway_client.c	37
+BATADV_LOG_BUFF_MASK	debugfs.c	38
+BATADV_MAX_VIS_PACKET_SIZE	vis.c	29
+BATADV_UEV_ACTION_VAR	sysfs.c	42
+BATADV_UEV_DATA_VAR	sysfs.c	43
+BATADV_UEV_TYPE_VAR	sysfs.c	41
+__batadv_store_bool_attr	sysfs.c	/^__batadv_store_bool_attr(char *buff, size_t count,/
+__batadv_store_uint_attr	sysfs.c	/^__batadv_store_uint_attr(const char *buff, size_t /
+__printf	debugfs.c	/^__printf(2, 3)$/
+__read_mostly	bat_iv_ogm.c	1312
+__this_module	batman-adv.mod.c	7
+__used	batman-adv.mod.c	18
+__used	batman-adv.mod.c	135
+_batadv_add_bcast_packet_to_list	send.c	/^_batadv_add_bcast_packet_to_list(struct batadv_pri/
+_batadv_is_ap_isolated	translation-table.c	/^_batadv_is_ap_isolated(struct batadv_tt_local_entr/
+_batadv_purge_orig	originator.c	/^static void _batadv_purge_orig(struct batadv_priv /
+_batadv_tt_update_changes	translation-table.c	/^static void _batadv_tt_update_changes(struct batad/
+_batadv_update_route	routing.c	/^static void _batadv_update_route(struct batadv_pri/
+attr	debugfs.c	294
+batadv_add_bcast_packet_to_list	send.c	/^int batadv_add_bcast_packet_to_list(struct batadv_/
+batadv_add_packet	vis.c	/^batadv_add_packet(struct batadv_priv *bat_priv,$/
+batadv_algo_get	main.c	/^static struct batadv_algo_ops *batadv_algo_get(cha/
+batadv_algo_list	main.c	44
+batadv_algo_register	main.c	/^int batadv_algo_register(struct batadv_algo_ops *b/
+batadv_algo_select	main.c	/^int batadv_algo_select(struct batadv_priv *bat_pri/
+batadv_algo_seq_print_text	main.c	/^int batadv_algo_seq_print_text(struct seq_file *se/
+batadv_algorithms_open	debugfs.c	/^static int batadv_algorithms_open(struct inode *in/
+batadv_announce_mac	bridge_loop_avoidance.c	34
+batadv_backbone_gw_free_ref	bridge_loop_avoidance.c	/^static void batadv_backbone_gw_free_ref(struct bat/
+batadv_backbone_hash_find	bridge_loop_avoidance.c	/^batadv_backbone_hash_find(struct batadv_priv *bat_/
+batadv_backbone_hash_lock_class_key	bridge_loop_avoidance.c	1159
+batadv_batman_attrs	sysfs.c	683
+batadv_batman_skb_recv	main.c	/^int batadv_batman_skb_recv(struct sk_buff *skb, st/
+batadv_bit_get_packet	bitarray.c	/^int batadv_bit_get_packet(void *priv, unsigned lon/
+batadv_bitmap_shift_left	bitarray.c	/^static void batadv_bitmap_shift_left(unsigned long/
+batadv_bla_add_claim	bridge_loop_avoidance.c	/^static void batadv_bla_add_claim(struct batadv_pri/
+batadv_bla_answer_request	bridge_loop_avoidance.c	/^static void batadv_bla_answer_request(struct batad/
+batadv_bla_backbone_table_open	debugfs.c	/^static int batadv_bla_backbone_table_open(struct i/
+batadv_bla_backbone_table_seq_print_text	bridge_loop_avoidance.c	/^int batadv_bla_backbone_table_seq_print_text(struc/
+batadv_bla_check_bcast_duplist	bridge_loop_avoidance.c	/^int batadv_bla_check_bcast_duplist(struct batadv_p/
+batadv_bla_claim_table_open	debugfs.c	/^static int batadv_bla_claim_table_open(struct inod/
+batadv_bla_claim_table_seq_print_text	bridge_loop_avoidance.c	/^int batadv_bla_claim_table_seq_print_text(struct s/
+batadv_bla_del_backbone_claims	bridge_loop_avoidance.c	/^batadv_bla_del_backbone_claims(struct batadv_backb/
+batadv_bla_del_claim	bridge_loop_avoidance.c	/^static void batadv_bla_del_claim(struct batadv_pri/
+batadv_bla_free	bridge_loop_avoidance.c	/^void batadv_bla_free(struct batadv_priv *bat_priv)/
+batadv_bla_get_backbone_gw	bridge_loop_avoidance.c	/^batadv_bla_get_backbone_gw(struct batadv_priv *bat/
+batadv_bla_init	bridge_loop_avoidance.c	/^int batadv_bla_init(struct batadv_priv *bat_priv)$/
+batadv_bla_is_backbone_gw	bridge_loop_avoidance.c	/^int batadv_bla_is_backbone_gw(struct sk_buff *skb,/
+batadv_bla_is_backbone_gw_orig	bridge_loop_avoidance.c	/^int batadv_bla_is_backbone_gw_orig(struct batadv_p/
+batadv_bla_periodic_work	bridge_loop_avoidance.c	/^static void batadv_bla_periodic_work(struct work_s/
+batadv_bla_process_claim	bridge_loop_avoidance.c	/^static int batadv_bla_process_claim(struct batadv_/
+batadv_bla_purge_backbone_gw	bridge_loop_avoidance.c	/^static void batadv_bla_purge_backbone_gw(struct ba/
+batadv_bla_purge_claims	bridge_loop_avoidance.c	/^static void batadv_bla_purge_claims(struct batadv_/
+batadv_bla_rx	bridge_loop_avoidance.c	/^int batadv_bla_rx(struct batadv_priv *bat_priv, st/
+batadv_bla_send_announce	bridge_loop_avoidance.c	/^static void batadv_bla_send_announce(struct batadv/
+batadv_bla_send_claim	bridge_loop_avoidance.c	/^static void batadv_bla_send_claim(struct batadv_pr/
+batadv_bla_send_request	bridge_loop_avoidance.c	/^static void batadv_bla_send_request(struct batadv_/
+batadv_bla_start_timer	bridge_loop_avoidance.c	/^static void batadv_bla_start_timer(struct batadv_p/
+batadv_bla_tx	bridge_loop_avoidance.c	/^int batadv_bla_tx(struct batadv_priv *bat_priv, st/
+batadv_bla_update_orig_address	bridge_loop_avoidance.c	/^void batadv_bla_update_orig_address(struct batadv_/
+batadv_bla_update_own_backbone_gw	bridge_loop_avoidance.c	/^batadv_bla_update_own_backbone_gw(struct batadv_pr/
+batadv_bonding_candidate_add	routing.c	/^void batadv_bonding_candidate_add(struct batadv_or/
+batadv_bonding_candidate_del	routing.c	/^void batadv_bonding_candidate_del(struct batadv_or/
+batadv_bonding_save_primary	routing.c	/^batadv_bonding_save_primary(const struct batadv_or/
+batadv_broadcast_addr	main.c	46
+batadv_broadcast_vis_packet	vis.c	/^static void batadv_broadcast_vis_packet(struct bat/
+batadv_check_claim_group	bridge_loop_avoidance.c	/^static int batadv_check_claim_group(struct batadv_/
+batadv_check_known_mac_addr	hard-interface.c	/^static void batadv_check_known_mac_addr(const stru/
+batadv_check_management_packet	routing.c	/^bool batadv_check_management_packet(struct sk_buff/
+batadv_check_unicast_packet	routing.c	/^static int batadv_check_unicast_packet(struct sk_b/
+batadv_check_unicast_ttvn	routing.c	/^static int batadv_check_unicast_ttvn(struct batadv/
+batadv_choose_backbone_gw	bridge_loop_avoidance.c	/^static inline uint32_t batadv_choose_backbone_gw(c/
+batadv_choose_claim	bridge_loop_avoidance.c	/^static inline uint32_t batadv_choose_claim(const v/
+batadv_claim_free_rcu	bridge_loop_avoidance.c	/^static void batadv_claim_free_rcu(struct rcu_head /
+batadv_claim_free_ref	bridge_loop_avoidance.c	/^static void batadv_claim_free_ref(struct batadv_cl/
+batadv_claim_hash_find	bridge_loop_avoidance.c	/^static struct batadv_claim *batadv_claim_hash_find/
+batadv_claim_hash_lock_class_key	bridge_loop_avoidance.c	1158
+batadv_compare_backbone_gw	bridge_loop_avoidance.c	/^static int batadv_compare_backbone_gw(const struct/
+batadv_compare_claim	bridge_loop_avoidance.c	/^static int batadv_compare_claim(const struct hlist/
+batadv_compare_orig	originator.c	/^static int batadv_compare_orig(const struct hlist_/
+batadv_compare_tt	translation-table.c	/^static int batadv_compare_tt(const struct hlist_no/
+batadv_counters_strings	soft-interface.c	541
+batadv_debug_log	debugfs.c	/^int batadv_debug_log(struct batadv_priv *bat_priv,/
+batadv_debug_log_cleanup	debugfs.c	/^static void batadv_debug_log_cleanup(struct batadv/
+batadv_debug_log_cleanup	debugfs.c	/^static void batadv_debug_log_cleanup(struct batadv/
+batadv_debug_log_setup	debugfs.c	/^static int batadv_debug_log_setup(struct batadv_pr/
+batadv_debug_log_setup	debugfs.c	/^static int batadv_debug_log_setup(struct batadv_pr/
+batadv_debugfs	debugfs.c	35
+batadv_debugfs_add_meshif	debugfs.c	/^int batadv_debugfs_add_meshif(struct net_device *d/
+batadv_debugfs_del_meshif	debugfs.c	/^void batadv_debugfs_del_meshif(struct net_device */
+batadv_debugfs_destroy	debugfs.c	/^void batadv_debugfs_destroy(void)$/
+batadv_debugfs_init	debugfs.c	/^void batadv_debugfs_init(void)$/
+batadv_debuginfo	debugfs.c	293
+batadv_dec_module_count	main.c	/^void batadv_dec_module_count(void)$/
+batadv_emit_log_char	debugfs.c	/^static void batadv_emit_log_char(struct batadv_deb/
+batadv_ethtool_ops	soft-interface.c	51
+batadv_event_workqueue	main.c	48
+batadv_exit	main.c	/^static void __exit batadv_exit(void)$/
+batadv_find_best_vis_server	vis.c	/^static int batadv_find_best_vis_server(struct bata/
+batadv_find_bond_router	routing.c	/^batadv_find_bond_router(struct batadv_orig_node *p/
+batadv_find_ifalter_router	routing.c	/^batadv_find_ifalter_router(struct batadv_orig_node/
+batadv_find_router	routing.c	/^batadv_find_router(struct batadv_priv *bat_priv,$/
+batadv_fops	icmp_socket.c	268
+batadv_forw_packet_free	send.c	/^static void batadv_forw_packet_free(struct batadv_/
+batadv_frag_create_buffer	unicast.c	/^static int batadv_frag_create_buffer(struct list_h/
+batadv_frag_create_entry	unicast.c	/^static void batadv_frag_create_entry(struct list_h/
+batadv_frag_list_free	unicast.c	/^void batadv_frag_list_free(struct list_head *head)/
+batadv_frag_merge_packet	unicast.c	/^batadv_frag_merge_packet(struct list_head *head,$/
+batadv_frag_reassemble_skb	unicast.c	/^int batadv_frag_reassemble_skb(struct sk_buff *skb/
+batadv_frag_search_packet	unicast.c	/^batadv_frag_search_packet(struct list_head *head,$/
+batadv_frag_send_skb	unicast.c	/^int batadv_frag_send_skb(struct sk_buff *skb, stru/
+batadv_free_info	vis.c	/^static void batadv_free_info(struct kref *ref)$/
+batadv_free_info_ref	vis.c	/^static void batadv_free_info_ref(struct hlist_node/
+batadv_free_rcu_backbone_gw	compat.c	/^void batadv_free_rcu_backbone_gw(struct rcu_head */
+batadv_free_rcu_gw_node	compat.c	/^void batadv_free_rcu_gw_node(struct rcu_head *rcu)/
+batadv_free_rcu_neigh_node	compat.c	/^void batadv_free_rcu_neigh_node(struct rcu_head *r/
+batadv_free_rcu_tt_local_entry	compat.c	/^void batadv_free_rcu_tt_local_entry(struct rcu_hea/
+batadv_gateways_open	debugfs.c	/^static int batadv_gateways_open(struct inode *inod/
+batadv_generate_vis_packet	vis.c	/^static int batadv_generate_vis_packet(struct batad/
+batadv_get_drvinfo	soft-interface.c	/^static void batadv_get_drvinfo(struct net_device */
+batadv_get_ethtool_stats	soft-interface.c	/^static void batadv_get_ethtool_stats(struct net_de/
+batadv_get_link	soft-interface.c	/^static u32 batadv_get_link(struct net_device *dev)/
+batadv_get_msglevel	soft-interface.c	/^static u32 batadv_get_msglevel(struct net_device */
+batadv_get_orig_node	originator.c	/^struct batadv_orig_node *batadv_get_orig_node(stru/
+batadv_get_settings	soft-interface.c	/^static int batadv_get_settings(struct net_device */
+batadv_get_sset_count	soft-interface.c	/^static int batadv_get_sset_count(struct net_device/
+batadv_get_strings	soft-interface.c	/^static void batadv_get_strings(struct net_device */
+batadv_gw_bandwidth_set	gateway_common.c	/^ssize_t batadv_gw_bandwidth_set(struct net_device /
+batadv_gw_bandwidth_to_kbit	gateway_common.c	/^void batadv_gw_bandwidth_to_kbit(uint8_t gw_srv_cl/
+batadv_gw_check_election	gateway_client.c	/^void batadv_gw_check_election(struct batadv_priv */
+batadv_gw_client_seq_print_text	gateway_client.c	/^int batadv_gw_client_seq_print_text(struct seq_fil/
+batadv_gw_deselect	gateway_client.c	/^void batadv_gw_deselect(struct batadv_priv *bat_pr/
+batadv_gw_election	gateway_client.c	/^void batadv_gw_election(struct batadv_priv *bat_pr/
+batadv_gw_get_best_gw_node	gateway_client.c	/^batadv_gw_get_best_gw_node(struct batadv_priv *bat/
+batadv_gw_get_selected_gw_node	gateway_client.c	/^batadv_gw_get_selected_gw_node(struct batadv_priv /
+batadv_gw_get_selected_orig	gateway_client.c	/^batadv_gw_get_selected_orig(struct batadv_priv *ba/
+batadv_gw_is_dhcp_target	gateway_client.c	/^bool batadv_gw_is_dhcp_target(struct sk_buff *skb,/
+batadv_gw_node_add	gateway_client.c	/^static void batadv_gw_node_add(struct batadv_priv /
+batadv_gw_node_delete	gateway_client.c	/^void batadv_gw_node_delete(struct batadv_priv *bat/
+batadv_gw_node_free_ref	gateway_client.c	/^static void batadv_gw_node_free_ref(struct batadv_/
+batadv_gw_node_purge	gateway_client.c	/^void batadv_gw_node_purge(struct batadv_priv *bat_/
+batadv_gw_node_update	gateway_client.c	/^void batadv_gw_node_update(struct batadv_priv *bat/
+batadv_gw_out_of_range	gateway_client.c	/^bool batadv_gw_out_of_range(struct batadv_priv *ba/
+batadv_gw_select	gateway_client.c	/^static void batadv_gw_select(struct batadv_priv *b/
+batadv_handle_announce	bridge_loop_avoidance.c	/^static int batadv_handle_announce(struct batadv_pr/
+batadv_handle_claim	bridge_loop_avoidance.c	/^static int batadv_handle_claim(struct batadv_priv /
+batadv_handle_request	bridge_loop_avoidance.c	/^static int batadv_handle_request(struct batadv_pri/
+batadv_handle_tt_response	translation-table.c	/^void batadv_handle_tt_response(struct batadv_priv /
+batadv_handle_unclaim	bridge_loop_avoidance.c	/^static int batadv_handle_unclaim(struct batadv_pri/
+batadv_hard_if_event	hard-interface.c	/^static int batadv_hard_if_event(struct notifier_bl/
+batadv_hard_if_notifier	hard-interface.c	587
+batadv_hardif_activate_interface	hard-interface.c	/^batadv_hardif_activate_interface(struct batadv_har/
+batadv_hardif_add_interface	hard-interface.c	/^batadv_hardif_add_interface(struct net_device *net/
+batadv_hardif_deactivate_interface	hard-interface.c	/^batadv_hardif_deactivate_interface(struct batadv_h/
+batadv_hardif_disable_interface	hard-interface.c	/^void batadv_hardif_disable_interface(struct batadv/
+batadv_hardif_enable_interface	hard-interface.c	/^int batadv_hardif_enable_interface(struct batadv_h/
+batadv_hardif_free_rcu	hard-interface.c	/^void batadv_hardif_free_rcu(struct rcu_head *rcu)$/
+batadv_hardif_get_active	hard-interface.c	/^batadv_hardif_get_active(const struct net_device */
+batadv_hardif_get_by_netdev	hard-interface.c	/^batadv_hardif_get_by_netdev(const struct net_devic/
+batadv_hardif_is_iface_up	hard-interface.c	/^batadv_hardif_is_iface_up(const struct batadv_hard/
+batadv_hardif_list	main.c	40
+batadv_hardif_min_mtu	hard-interface.c	/^int batadv_hardif_min_mtu(struct net_device *soft_/
+batadv_hardif_remove_interface	hard-interface.c	/^static void batadv_hardif_remove_interface(struct /
+batadv_hardif_remove_interfaces	hard-interface.c	/^void batadv_hardif_remove_interfaces(void)$/
+batadv_hash_destroy	hash.c	/^void batadv_hash_destroy(struct batadv_hashtable */
+batadv_hash_init	hash.c	/^static void batadv_hash_init(struct batadv_hashtab/
+batadv_hash_new	hash.c	/^struct batadv_hashtable *batadv_hash_new(uint32_t /
+batadv_hash_set_lock_class	hash.c	/^void batadv_hash_set_lock_class(struct batadv_hash/
+batadv_hop_penalty	bat_iv_ogm.c	/^static uint8_t batadv_hop_penalty(uint8_t tq,$/
+batadv_inc_module_count	main.c	/^void batadv_inc_module_count(void)$/
+batadv_init	main.c	/^static int __init batadv_init(void)$/
+batadv_interface_change_mtu	soft-interface.c	/^static int batadv_interface_change_mtu(struct net_/
+batadv_interface_open	soft-interface.c	/^static int batadv_interface_open(struct net_device/
+batadv_interface_release	soft-interface.c	/^static int batadv_interface_release(struct net_dev/
+batadv_interface_rx	soft-interface.c	/^void batadv_interface_rx(struct net_device *soft_i/
+batadv_interface_set_mac_addr	soft-interface.c	/^static int batadv_interface_set_mac_addr(struct ne/
+batadv_interface_setup	soft-interface.c	/^static void batadv_interface_setup(struct net_devi/
+batadv_interface_stats	soft-interface.c	/^static struct net_device_stats *batadv_interface_s/
+batadv_interface_tx	soft-interface.c	/^static int batadv_interface_tx(struct sk_buff *skb/
+batadv_is_ap_isolated	translation-table.c	/^bool batadv_is_ap_isolated(struct batadv_priv *bat/
+batadv_is_my_client	translation-table.c	/^bool batadv_is_my_client(struct batadv_priv *bat_p/
+batadv_is_my_mac	main.c	/^int batadv_is_my_mac(const uint8_t *addr)$/
+batadv_is_type_dhcprequest	gateway_client.c	/^static bool batadv_is_type_dhcprequest(struct sk_b/
+batadv_is_valid_iface	hard-interface.c	/^static int batadv_is_valid_iface(const struct net_/
+batadv_is_wifi_iface	hard-interface.c	/^bool batadv_is_wifi_iface(int ifindex)$/
+batadv_iv_init	bat_iv_ogm.c	/^int __init batadv_iv_init(void)$/
+batadv_iv_ogm_aggr_packet	bat_iv_ogm.c	/^static int batadv_iv_ogm_aggr_packet(int buff_pos,/
+batadv_iv_ogm_aggregate	bat_iv_ogm.c	/^static void batadv_iv_ogm_aggregate(struct batadv_/
+batadv_iv_ogm_aggregate_new	bat_iv_ogm.c	/^static void batadv_iv_ogm_aggregate_new(const unsi/
+batadv_iv_ogm_calc_tq	bat_iv_ogm.c	/^static int batadv_iv_ogm_calc_tq(struct batadv_ori/
+batadv_iv_ogm_can_aggregate	bat_iv_ogm.c	/^batadv_iv_ogm_can_aggregate(const struct batadv_og/
+batadv_iv_ogm_emit	bat_iv_ogm.c	/^static void batadv_iv_ogm_emit(struct batadv_forw_/
+batadv_iv_ogm_emit_send_time	bat_iv_ogm.c	/^batadv_iv_ogm_emit_send_time(const struct batadv_p/
+batadv_iv_ogm_forward	bat_iv_ogm.c	/^static void batadv_iv_ogm_forward(struct batadv_or/
+batadv_iv_ogm_fwd_send_time	bat_iv_ogm.c	/^static unsigned long batadv_iv_ogm_fwd_send_time(v/
+batadv_iv_ogm_iface_disable	bat_iv_ogm.c	/^static void batadv_iv_ogm_iface_disable(struct bat/
+batadv_iv_ogm_iface_enable	bat_iv_ogm.c	/^static int batadv_iv_ogm_iface_enable(struct batad/
+batadv_iv_ogm_iface_update_mac	bat_iv_ogm.c	/^static void batadv_iv_ogm_iface_update_mac(struct /
+batadv_iv_ogm_neigh_new	bat_iv_ogm.c	/^batadv_iv_ogm_neigh_new(struct batadv_hard_iface */
+batadv_iv_ogm_orig_update	bat_iv_ogm.c	/^batadv_iv_ogm_orig_update(struct batadv_priv *bat_/
+batadv_iv_ogm_primary_iface_set	bat_iv_ogm.c	/^batadv_iv_ogm_primary_iface_set(struct batadv_hard/
+batadv_iv_ogm_process	bat_iv_ogm.c	/^static void batadv_iv_ogm_process(const struct eth/
+batadv_iv_ogm_queue_add	bat_iv_ogm.c	/^static void batadv_iv_ogm_queue_add(struct batadv_/
+batadv_iv_ogm_receive	bat_iv_ogm.c	/^static int batadv_iv_ogm_receive(struct sk_buff *s/
+batadv_iv_ogm_schedule	bat_iv_ogm.c	/^static void batadv_iv_ogm_schedule(struct batadv_h/
+batadv_iv_ogm_send_to_if	bat_iv_ogm.c	/^static void batadv_iv_ogm_send_to_if(struct batadv/
+batadv_iv_ogm_update_seqnos	bat_iv_ogm.c	/^batadv_iv_ogm_update_seqnos(const struct ethhdr *e/
+batadv_kbit_to_gw_bandwidth	gateway_common.c	/^static void batadv_kbit_to_gw_bandwidth(int down, /
+batadv_kobj_to_batpriv	sysfs.c	/^static struct batadv_priv *batadv_kobj_to_batpriv(/
+batadv_kobj_to_netdev	sysfs.c	/^static struct net_device *batadv_kobj_to_netdev(st/
+batadv_log_buff_len	debugfs.c	40
+batadv_log_char_addr	debugfs.c	/^static char *batadv_log_char_addr(struct batadv_de/
+batadv_log_empty	debugfs.c	/^static int batadv_log_empty(struct batadv_debug_lo/
+batadv_log_fops	debugfs.c	188
+batadv_log_open	debugfs.c	/^static int batadv_log_open(struct inode *inode, st/
+batadv_log_poll	debugfs.c	/^static unsigned int batadv_log_poll(struct file *f/
+batadv_log_read	debugfs.c	/^static ssize_t batadv_log_read(struct file *file, /
+batadv_log_release	debugfs.c	/^static int batadv_log_release(struct inode *inode,/
+batadv_mesh_attrs	sysfs.c	491
+batadv_mesh_debuginfos	debugfs.c	324
+batadv_mesh_free	main.c	/^void batadv_mesh_free(struct net_device *soft_ifac/
+batadv_mesh_init	main.c	/^int batadv_mesh_init(struct net_device *soft_iface/
+batadv_neigh_node_free_ref	originator.c	/^void batadv_neigh_node_free_ref(struct batadv_neig/
+batadv_neigh_node_new	originator.c	/^batadv_neigh_node_new(struct batadv_hard_iface *ha/
+batadv_netdev_ops	soft-interface.c	350
+batadv_new_tt_req_node	translation-table.c	/^batadv_new_tt_req_node(struct batadv_priv *bat_pri/
+batadv_orig_hash_add_if	originator.c	/^int batadv_orig_hash_add_if(struct batadv_hard_ifa/
+batadv_orig_hash_del_if	originator.c	/^int batadv_orig_hash_del_if(struct batadv_hard_ifa/
+batadv_orig_node_add_if	originator.c	/^static int batadv_orig_node_add_if(struct batadv_o/
+batadv_orig_node_del_if	originator.c	/^static int batadv_orig_node_del_if(struct batadv_o/
+batadv_orig_node_free_rcu	originator.c	/^static void batadv_orig_node_free_rcu(struct rcu_h/
+batadv_orig_node_free_ref	originator.c	/^void batadv_orig_node_free_ref(struct batadv_orig_/
+batadv_orig_node_get_router	originator.c	/^batadv_orig_node_get_router(struct batadv_orig_nod/
+batadv_orig_seq_print_text	originator.c	/^int batadv_orig_seq_print_text(struct seq_file *se/
+batadv_originator_free	originator.c	/^void batadv_originator_free(struct batadv_priv *ba/
+batadv_originator_init	originator.c	/^int batadv_originator_init(struct batadv_priv *bat/
+batadv_originators_open	debugfs.c	/^static int batadv_originators_open(struct inode *i/
+batadv_param_ops_ra	main.c	406
+batadv_param_set_ra	main.c	/^static int batadv_param_set_ra(const char *val, co/
+batadv_param_string_ra	main.c	411
+batadv_parse_gw_bandwidth	gateway_common.c	/^static bool batadv_parse_gw_bandwidth(struct net_d/
+batadv_post_gw_deselect	sysfs.c	/^static void batadv_post_gw_deselect(struct net_dev/
+batadv_primary_if_select	hard-interface.c	/^static void batadv_primary_if_select(struct batadv/
+batadv_primary_if_update_addr	hard-interface.c	/^static void batadv_primary_if_update_addr(struct b/
+batadv_purge_orig	originator.c	/^static void batadv_purge_orig(struct work_struct */
+batadv_purge_orig_neighbors	originator.c	/^batadv_purge_orig_neighbors(struct batadv_priv *ba/
+batadv_purge_orig_node	originator.c	/^static bool batadv_purge_orig_node(struct batadv_p/
+batadv_purge_orig_ref	originator.c	/^void batadv_purge_orig_ref(struct batadv_priv *bat/
+batadv_purge_outstanding_packets	send.c	/^batadv_purge_outstanding_packets(struct batadv_pri/
+batadv_purge_vis_packets	vis.c	/^static void batadv_purge_vis_packets(struct batadv/
+batadv_receive_client_update_packet	vis.c	/^void batadv_receive_client_update_packet(struct ba/
+batadv_receive_server_sync_packet	vis.c	/^void batadv_receive_server_sync_packet(struct bata/
+batadv_recv_bcast_packet	routing.c	/^int batadv_recv_bcast_packet(struct sk_buff *skb,$/
+batadv_recv_handler_init	main.c	/^static void batadv_recv_handler_init(void)$/
+batadv_recv_handler_register	main.c	/^batadv_recv_handler_register(uint8_t packet_type,$/
+batadv_recv_handler_unregister	main.c	/^void batadv_recv_handler_unregister(uint8_t packet/
+batadv_recv_icmp_packet	routing.c	/^int batadv_recv_icmp_packet(struct sk_buff *skb,$/
+batadv_recv_icmp_ttl_exceeded	routing.c	/^static int batadv_recv_icmp_ttl_exceeded(struct ba/
+batadv_recv_list_add	vis.c	/^static void batadv_recv_list_add(struct batadv_pri/
+batadv_recv_list_is_in	vis.c	/^static int batadv_recv_list_is_in(struct batadv_pr/
+batadv_recv_my_icmp_packet	routing.c	/^static int batadv_recv_my_icmp_packet(struct batad/
+batadv_recv_roam_adv	routing.c	/^int batadv_recv_roam_adv(struct sk_buff *skb, stru/
+batadv_recv_tt_query	routing.c	/^int batadv_recv_tt_query(struct sk_buff *skb, stru/
+batadv_recv_ucast_frag_packet	routing.c	/^int batadv_recv_ucast_frag_packet(struct sk_buff */
+batadv_recv_unhandled_packet	main.c	/^static int batadv_recv_unhandled_packet(struct sk_/
+batadv_recv_unicast_packet	routing.c	/^int batadv_recv_unicast_packet(struct sk_buff *skb/
+batadv_recv_vis_packet	routing.c	/^int batadv_recv_vis_packet(struct sk_buff *skb,$/
+batadv_ring_buffer_avg	ring_buffer.c	/^uint8_t batadv_ring_buffer_avg(const uint8_t lq_re/
+batadv_ring_buffer_set	ring_buffer.c	/^void batadv_ring_buffer_set(uint8_t lq_recv[], uin/
+batadv_route_unicast_packet	routing.c	/^static int batadv_route_unicast_packet(struct sk_b/
+batadv_routing_algo	main.c	43
+batadv_schedule_bat_ogm	send.c	/^void batadv_schedule_bat_ogm(struct batadv_hard_if/
+batadv_send_list_add	vis.c	/^static void batadv_send_list_add(struct batadv_pri/
+batadv_send_list_del	vis.c	/^static void batadv_send_list_del(struct batadv_vis/
+batadv_send_my_tt_response	translation-table.c	/^batadv_send_my_tt_response(struct batadv_priv *bat/
+batadv_send_other_tt_response	translation-table.c	/^batadv_send_other_tt_response(struct batadv_priv */
+batadv_send_outstanding_bat_ogm_packet	send.c	/^void batadv_send_outstanding_bat_ogm_packet(struct/
+batadv_send_outstanding_bcast_packet	send.c	/^static void batadv_send_outstanding_bcast_packet(s/
+batadv_send_roam_adv	translation-table.c	/^static void batadv_send_roam_adv(struct batadv_pri/
+batadv_send_skb_packet	send.c	/^int batadv_send_skb_packet(struct sk_buff *skb,$/
+batadv_send_tt_request	translation-table.c	/^static int batadv_send_tt_request(struct batadv_pr/
+batadv_send_tt_response	translation-table.c	/^bool batadv_send_tt_response(struct batadv_priv *b/
+batadv_send_vis_packet	vis.c	/^static void batadv_send_vis_packet(struct batadv_p/
+batadv_send_vis_packets	vis.c	/^static void batadv_send_vis_packets(struct work_st/
+batadv_set_msglevel	soft-interface.c	/^static void batadv_set_msglevel(struct net_device /
+batadv_show_bat_algo	sysfs.c	/^static ssize_t batadv_show_bat_algo(struct kobject/
+batadv_show_gw_bwidth	sysfs.c	/^static ssize_t batadv_show_gw_bwidth(struct kobjec/
+batadv_show_gw_mode	sysfs.c	/^static ssize_t batadv_show_gw_mode(struct kobject /
+batadv_show_iface_status	sysfs.c	/^static ssize_t batadv_show_iface_status(struct kob/
+batadv_show_mesh_iface	sysfs.c	/^static ssize_t batadv_show_mesh_iface(struct kobje/
+batadv_show_vis_mode	sysfs.c	/^static ssize_t batadv_show_vis_mode(struct kobject/
+batadv_skb_head_push	soft-interface.c	/^int batadv_skb_head_push(struct sk_buff *skb, unsi/
+batadv_slide_own_bcast_window	routing.c	/^void batadv_slide_own_bcast_window(struct batadv_h/
+batadv_socket_add_packet	icmp_socket.c	/^static void batadv_socket_add_packet(struct batadv/
+batadv_socket_client_hash	icmp_socket.c	29
+batadv_socket_init	icmp_socket.c	/^void batadv_socket_init(void)$/
+batadv_socket_open	icmp_socket.c	/^static int batadv_socket_open(struct inode *inode,/
+batadv_socket_poll	icmp_socket.c	/^static unsigned int batadv_socket_poll(struct file/
+batadv_socket_read	icmp_socket.c	/^static ssize_t batadv_socket_read(struct file *fil/
+batadv_socket_receive_packet	icmp_socket.c	/^void batadv_socket_receive_packet(struct batadv_ic/
+batadv_socket_release	icmp_socket.c	/^static int batadv_socket_release(struct inode *ino/
+batadv_socket_setup	icmp_socket.c	/^int batadv_socket_setup(struct batadv_priv *bat_pr/
+batadv_socket_write	icmp_socket.c	/^static ssize_t batadv_socket_write(struct file *fi/
+batadv_softif_create	soft-interface.c	/^struct net_device *batadv_softif_create(const char/
+batadv_softif_destroy	soft-interface.c	/^void batadv_softif_destroy(struct net_device *soft/
+batadv_softif_is_valid	soft-interface.c	/^int batadv_softif_is_valid(const struct net_device/
+batadv_start_purge_timer	originator.c	/^static void batadv_start_purge_timer(struct batadv/
+batadv_start_vis_timer	vis.c	/^static void batadv_start_vis_timer(struct batadv_p/
+batadv_store_bool_attr	sysfs.c	/^static int batadv_store_bool_attr(char *buff, size/
+batadv_store_gw_bwidth	sysfs.c	/^static ssize_t batadv_store_gw_bwidth(struct kobje/
+batadv_store_gw_mode	sysfs.c	/^static ssize_t batadv_store_gw_mode(struct kobject/
+batadv_store_mesh_iface	sysfs.c	/^static ssize_t batadv_store_mesh_iface(struct kobj/
+batadv_store_uint_attr	sysfs.c	/^static int batadv_store_uint_attr(const char *buff/
+batadv_store_vis_mode	sysfs.c	/^static ssize_t batadv_store_vis_mode(struct kobjec/
+batadv_sysfs_add_hardif	sysfs.c	/^int batadv_sysfs_add_hardif(struct kobject **hardi/
+batadv_sysfs_add_meshif	sysfs.c	/^int batadv_sysfs_add_meshif(struct net_device *dev/
+batadv_sysfs_del_hardif	sysfs.c	/^void batadv_sysfs_del_hardif(struct kobject **hard/
+batadv_sysfs_del_meshif	sysfs.c	/^void batadv_sysfs_del_meshif(struct net_device *de/
+batadv_throw_uevent	sysfs.c	/^int batadv_throw_uevent(struct batadv_priv *bat_pr/
+batadv_transtable_global_open	debugfs.c	/^static int batadv_transtable_global_open(struct in/
+batadv_transtable_local_open	debugfs.c	/^static int batadv_transtable_local_open(struct ino/
+batadv_transtable_search	translation-table.c	/^struct batadv_orig_node *batadv_transtable_search(/
+batadv_tt_add_temporary_global_entry	translation-table.c	/^bool batadv_tt_add_temporary_global_entry(struct b/
+batadv_tt_append_diff	translation-table.c	/^int batadv_tt_append_diff(struct batadv_priv *bat_/
+batadv_tt_changes_fill_buff	translation-table.c	/^static int batadv_tt_changes_fill_buff(struct bata/
+batadv_tt_changes_list_free	translation-table.c	/^static void batadv_tt_changes_list_free(struct bat/
+batadv_tt_check_roam_count	translation-table.c	/^static bool batadv_tt_check_roam_count(struct bata/
+batadv_tt_commit_changes	translation-table.c	/^static int batadv_tt_commit_changes(struct batadv_/
+batadv_tt_fill_gtable	translation-table.c	/^static void batadv_tt_fill_gtable(struct batadv_pr/
+batadv_tt_free	translation-table.c	/^void batadv_tt_free(struct batadv_priv *bat_priv)$/
+batadv_tt_global_add	translation-table.c	/^int batadv_tt_global_add(struct batadv_priv *bat_p/
+batadv_tt_global_client_is_roaming	translation-table.c	/^bool batadv_tt_global_client_is_roaming(struct bat/
+batadv_tt_global_crc	translation-table.c	/^static uint16_t batadv_tt_global_crc(struct batadv/
+batadv_tt_global_del	translation-table.c	/^static void batadv_tt_global_del(struct batadv_pri/
+batadv_tt_global_del_orig	translation-table.c	/^void batadv_tt_global_del_orig(struct batadv_priv /
+batadv_tt_global_del_orig_entry	translation-table.c	/^batadv_tt_global_del_orig_entry(struct batadv_priv/
+batadv_tt_global_del_orig_list	translation-table.c	/^batadv_tt_global_del_orig_list(struct batadv_tt_gl/
+batadv_tt_global_del_roaming	translation-table.c	/^batadv_tt_global_del_roaming(struct batadv_priv *b/
+batadv_tt_global_del_struct	translation-table.c	/^batadv_tt_global_del_struct(struct batadv_priv *ba/
+batadv_tt_global_entry_free_rcu	translation-table.c	/^static void batadv_tt_global_entry_free_rcu(struct/
+batadv_tt_global_entry_free_ref	translation-table.c	/^batadv_tt_global_entry_free_ref(struct batadv_tt_g/
+batadv_tt_global_entry_has_orig	translation-table.c	/^batadv_tt_global_entry_has_orig(const struct batad/
+batadv_tt_global_hash_find	translation-table.c	/^batadv_tt_global_hash_find(struct batadv_priv *bat/
+batadv_tt_global_init	translation-table.c	/^static int batadv_tt_global_init(struct batadv_pri/
+batadv_tt_global_orig_entry_add	translation-table.c	/^batadv_tt_global_orig_entry_add(struct batadv_tt_g/
+batadv_tt_global_orig_entry_find	translation-table.c	/^batadv_tt_global_orig_entry_find(const struct bata/
+batadv_tt_global_print_entry	translation-table.c	/^batadv_tt_global_print_entry(struct batadv_tt_glob/
+batadv_tt_global_purge	translation-table.c	/^static void batadv_tt_global_purge(struct batadv_p/
+batadv_tt_global_seq_print_text	translation-table.c	/^int batadv_tt_global_seq_print_text(struct seq_fil/
+batadv_tt_global_table_free	translation-table.c	/^static void batadv_tt_global_table_free(struct bat/
+batadv_tt_global_to_purge	translation-table.c	/^static bool batadv_tt_global_to_purge(struct batad/
+batadv_tt_global_valid	translation-table.c	/^static int batadv_tt_global_valid(const void *entr/
+batadv_tt_hash_find	translation-table.c	/^batadv_tt_hash_find(struct batadv_hashtable *hash,/
+batadv_tt_init	translation-table.c	/^int batadv_tt_init(struct batadv_priv *bat_priv)$/
+batadv_tt_len	translation-table.c	/^int batadv_tt_len(int changes_num)$/
+batadv_tt_local_add	translation-table.c	/^void batadv_tt_local_add(struct net_device *soft_i/
+batadv_tt_local_crc	translation-table.c	/^static uint16_t batadv_tt_local_crc(struct batadv_/
+batadv_tt_local_entry_free_ref	translation-table.c	/^batadv_tt_local_entry_free_ref(struct batadv_tt_lo/
+batadv_tt_local_event	translation-table.c	/^static void batadv_tt_local_event(struct batadv_pr/
+batadv_tt_local_hash_find	translation-table.c	/^batadv_tt_local_hash_find(struct batadv_priv *bat_/
+batadv_tt_local_init	translation-table.c	/^static int batadv_tt_local_init(struct batadv_priv/
+batadv_tt_local_purge	translation-table.c	/^static void batadv_tt_local_purge(struct batadv_pr/
+batadv_tt_local_purge_list	translation-table.c	/^static void batadv_tt_local_purge_list(struct bata/
+batadv_tt_local_purge_pending_clients	translation-table.c	/^static void batadv_tt_local_purge_pending_clients(/
+batadv_tt_local_remove	translation-table.c	/^void batadv_tt_local_remove(struct batadv_priv *ba/
+batadv_tt_local_seq_print_text	translation-table.c	/^int batadv_tt_local_seq_print_text(struct seq_file/
+batadv_tt_local_set_pending	translation-table.c	/^batadv_tt_local_set_pending(struct batadv_priv *ba/
+batadv_tt_local_table_free	translation-table.c	/^static void batadv_tt_local_table_free(struct bata/
+batadv_tt_local_valid_entry	translation-table.c	/^static int batadv_tt_local_valid_entry(const void /
+batadv_tt_orig_list_entry_free_rcu	translation-table.c	/^static void batadv_tt_orig_list_entry_free_rcu(str/
+batadv_tt_orig_list_entry_free_ref	translation-table.c	/^batadv_tt_orig_list_entry_free_ref(struct batadv_t/
+batadv_tt_prepare_packet_buff	translation-table.c	/^static void batadv_tt_prepare_packet_buff(struct b/
+batadv_tt_purge	translation-table.c	/^static void batadv_tt_purge(struct work_struct *wo/
+batadv_tt_realloc_packet_buff	translation-table.c	/^static void batadv_tt_realloc_packet_buff(unsigned/
+batadv_tt_req_list_free	translation-table.c	/^static void batadv_tt_req_list_free(struct batadv_/
+batadv_tt_req_purge	translation-table.c	/^static void batadv_tt_req_purge(struct batadv_priv/
+batadv_tt_response_fill_table	translation-table.c	/^batadv_tt_response_fill_table(uint16_t tt_len, uin/
+batadv_tt_roam_list_free	translation-table.c	/^static void batadv_tt_roam_list_free(struct batadv/
+batadv_tt_roam_purge	translation-table.c	/^static void batadv_tt_roam_purge(struct batadv_pri/
+batadv_tt_save_orig_buffer	translation-table.c	/^static void batadv_tt_save_orig_buffer(struct bata/
+batadv_tt_set_flags	translation-table.c	/^static uint16_t batadv_tt_set_flags(struct batadv_/
+batadv_tt_start_timer	translation-table.c	/^static void batadv_tt_start_timer(struct batadv_pr/
+batadv_tt_update_changes	translation-table.c	/^static void batadv_tt_update_changes(struct batadv/
+batadv_tt_update_orig	translation-table.c	/^void batadv_tt_update_orig(struct batadv_priv *bat/
+batadv_uev_action_str	sysfs.c	45
+batadv_uev_type_str	sysfs.c	51
+batadv_unicast_send_skb	unicast.c	/^int batadv_unicast_send_skb(struct sk_buff *skb, s/
+batadv_unicast_vis_packet	vis.c	/^static void batadv_unicast_vis_packet(struct batad/
+batadv_update_min_mtu	hard-interface.c	/^void batadv_update_min_mtu(struct net_device *soft/
+batadv_update_route	routing.c	/^void batadv_update_route(struct batadv_priv *bat_p/
+batadv_vis_data_insert_interface	vis.c	/^static void batadv_vis_data_insert_interface(const/
+batadv_vis_data_insert_interfaces	vis.c	/^batadv_vis_data_insert_interfaces(struct hlist_hea/
+batadv_vis_data_open	debugfs.c	/^static int batadv_vis_data_open(struct inode *inod/
+batadv_vis_data_read_entries	vis.c	/^static void batadv_vis_data_read_entries(struct se/
+batadv_vis_data_read_entry	vis.c	/^batadv_vis_data_read_entry(struct seq_file *seq,$/
+batadv_vis_data_read_prim_sec	vis.c	/^static void batadv_vis_data_read_prim_sec(struct s/
+batadv_vis_hash_find	vis.c	/^batadv_vis_hash_find(struct batadv_priv *bat_priv,/
+batadv_vis_info_choose	vis.c	/^static uint32_t batadv_vis_info_choose(const void /
+batadv_vis_info_cmp	vis.c	/^static int batadv_vis_info_cmp(const struct hlist_/
+batadv_vis_init	vis.c	/^int batadv_vis_init(struct batadv_priv *bat_priv)$/
+batadv_vis_packet_full	vis.c	/^static bool batadv_vis_packet_full(const struct ba/
+batadv_vis_quit	vis.c	/^void batadv_vis_quit(struct batadv_priv *bat_priv)/
+batadv_vis_seq_print_text	vis.c	/^int batadv_vis_seq_print_text(struct seq_file *seq/
+batadv_vis_seq_print_text_bucket	vis.c	/^static void batadv_vis_seq_print_text_bucket(struc/
+batadv_window_protected	routing.c	/^int batadv_window_protected(struct batadv_priv *ba/
+batadv_write_buffer_text	gateway_client.c	/^static int batadv_write_buffer_text(struct batadv_/
+fops	debugfs.c	295
+name	soft-interface.c	540
